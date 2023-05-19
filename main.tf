@@ -10,4 +10,4 @@ resource "aws_s3_bucket" "name" {
 
 resource "null_resource" "example" {}
 
-resource "null_resource" "test" {}
+
