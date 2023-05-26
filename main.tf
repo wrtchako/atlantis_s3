@@ -9,5 +9,11 @@ resource "aws_s3_bucket" "name" {
 }
 
 resource "null_resource" "example" {}
+resource "null_resource" "ebanflang" {
+  
+}
+resource "null_resource" "bigdata" {
+  
+}
 
 
