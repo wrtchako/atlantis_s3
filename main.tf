@@ -4,12 +4,15 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "name" {
-    bucket = "atlantis-2023-test"
+    bucket = "atlantis-2023-test-dev"
+    tags = {
+        Name = "atlantis"
+    }
   
 }
 
-resource "null_resource" "example" {}
-resource "null_resource" "ebanflang" {
+resource "null_resource" "yaounde" {}
+resource "null_resource" "wilfried" {
   
 }
 
